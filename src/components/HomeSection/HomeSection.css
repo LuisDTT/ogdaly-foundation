@@ -1,0 +1,39 @@
+
+@keyframes slideImageToLeft {
+    from {
+        left: 27rem
+    }
+    to {
+        left:-30px;
+        top :5rem;
+        rotate: 6deg;
+    }
+}
+
+@keyframes slideImageToRight {
+    from {
+        right: 27rem
+    }
+    to {
+        right:-30px;
+        bottom :2.5rem;
+        rotate: 6deg;
+    }
+}
+
+.animate-slide-image-to-left {
+    animation: slideImageToLeft .5s ease-out forwards;
+    -webkit-animation: slideImageToLeft .5s ease-out forwards;
+}
+
+.animate-slide-image-to-right {
+    animation: slideImageToRight .5s ease-out forwards;
+    -webkit-animation: slideImageToRight .5s ease-out forwards;
+}
+
+.bg-image{
+    background-position: 0% 80%;
+    background-size: cover;
+    
+
+}
