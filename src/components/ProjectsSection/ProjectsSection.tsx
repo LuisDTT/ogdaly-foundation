@@ -33,9 +33,9 @@ export const ProjectsSection = () => {
 					<div className="relative min-w-72 w-2/5 h-[300px] md:h-[400px] lg:h-[450px]">
 						<iframe
 							className="w-full h-full rounded-2xl shadow-lg"
-							src="https://www.youtube.com/embed/q0cYRouUBZU"
+							src="https://www.youtube.com/embed/7U6M_FSG2Fs"
 							title="Video de la Fundación"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allow="accelerometer; autoplay=true; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 							allowFullScreen
 						></iframe>
 					</div>

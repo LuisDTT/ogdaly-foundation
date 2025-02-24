@@ -35,12 +35,11 @@ function Header() {
 						alt="Logo"
 						width={100}
 						height={100}
-						className="object-contain my-2 w-16 z-10  lg:w-24"
+						className="object-contain my-2 w-12 z-10  lg:w-20"
 					/>
 					<div className="my-auto ml-2 overflow-hidden z-10">
 						<div className="animate-slide-in ">
-							<h1 className="text-xl font-semibold leading-none lg:text-2xl ">
-								FUNDACIÓN <br />
+							<h1 className="text-2xl font-semibold leading-none lg:text-3xl ">
 								<span className="text-yellow-300">FUNDA</span>
 								<span className="text-blue-900">MIA</span>
 								<span className="text-red-600">YE</span>

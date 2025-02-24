@@ -10,8 +10,8 @@ export const OurTarget = () => {
 						Nuestro Objetivo
 					</h4>
 					<p className="text-lg text-gray-700 max-w-2xl">
-						Trabajamos incansablemente para transformar vidas y construir un
-						futuro mejor.
+						Capacitar a Migrantes, Retornados y Desplazados para Integrarlos al
+						Aparato productivo de la Región.
 					</p>
 				</div>
 				<div className="grid md:grid-cols-[minmax(100px,500px)_minmax(100px,700px)] gap-8 items-center justify-center">
@@ -24,8 +24,8 @@ export const OurTarget = () => {
 							src="/image-objetivo2.jpg" // Ruta de la imagen
 							alt="Objetivo de la Fundación"
 							className="rounded-lg shadow-lg w-full max-w-md"
-							width={100}
-							height={100}
+							width={1000}
+							height={1000}
 						/>
 					</div>
 					{/* Contenido del objetivo */}

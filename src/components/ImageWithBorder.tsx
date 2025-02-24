@@ -7,8 +7,8 @@ export const ImageWithBorder = ({ imgURL }: { imgURL: string }) => {
 				<Image
 					src={imgURL}
 					alt="Demostracion"
-					width={200}
-					height={100}
+					width={1000}
+					height={1000}
 					className="w-full h-full object-cover rounded-2xl"
 				/>
 			</div>

@@ -12,24 +12,26 @@ const ProfileCard = ({
 	role: string
 }) => {
 	return (
-		<div className=" max-w-sm  overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 bg-[url('/bg-profile.png')] bg-no-repeat bg-cover bg-center">
+		<div className=" max-w-sm rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 bg-[url('/venezuela-flag.png')] bg-no-repeat bg-contain bg-bottom ">
 			<div className="relative h-72">
 				<Image
 					src={image}
 					alt={name}
-					width={100}
-					height={100}
+					width={1000}
+					height={1000}
 					className="object-cover w-full h-full"
 				/>
 			</div>
 
-			<div className="p-6 bg-[#ffffffbf]">
-				<h2 className="text-xl font-bold text-gray-800 mb-2">
+			<div className="p-6 bg-[#ffffffdf] h-60">
+				<h2 className="text-xl font-bold text-gray-700 mb-2">
 					{name}
 					<br />
-					<span className="text-base font-extralight">{role}</span>
+					<span className="text-base font-extralight text-gray-500">
+						{role}
+					</span>
 				</h2>
-				<p className="text-black">{description}</p>
+				<p className="text-gray-700">{description}</p>
 			</div>
 		</div>
 	)

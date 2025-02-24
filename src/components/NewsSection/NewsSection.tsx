@@ -11,7 +11,7 @@ export default function NewsSection() {
 						nuestra fundación.
 					</p>
 				</div>
-				<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+				{/* <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 					<div className="bg-gray-50 rounded-lg shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
 						<Image
 							src={'/image-objetivo.jpg'}
@@ -37,6 +37,40 @@ export default function NewsSection() {
 								Leer más →
 							</a>
 						</div>
+					</div>
+				</div> */}
+				<div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+					<div className="rounded-sm overflow-hidden ring-pink-100 ring shadow-2xl shadow-pink-200 hover:scale-[1.01] transition-transform ">
+						<Image
+							src={'/el-universal-news-3.jpg'}
+							alt="Noticias del universal"
+							width={1000}
+							height={1000}
+						/>
+					</div>
+					<div className="rounded-md overflow-hidden ring-pink-100 ring shadow-2xl shadow-pink-200 hover:scale-[1.01] transition-transform">
+						<Image
+							src={'/el-universal-news-2.jpg'}
+							alt="Noticias del universal"
+							width={1000}
+							height={1000}
+						/>
+					</div>
+					<div className="rounded-md overflow-hidden ring-pink-100 ring shadow-2xl shadow-pink-200 hover:scale-[1.01] transition-transform">
+						<Image
+							src={'/el-universal-news-1.jpg'}
+							alt="Noticias del universal"
+							width={1000}
+							height={1000}
+						/>
+					</div>
+					<div className="rounded-md overflow-hidden ring-pink-100 ring shadow-2xl shadow-pink-200 hover:scale-[1.01] transition-transform">
+						<Image
+							src={'/el-universal-news.jpg'}
+							alt="Noticias del universal"
+							width={1000}
+							height={1000}
+						/>
 					</div>
 				</div>
 			</div>
